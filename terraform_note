@@ -1,0 +1,23 @@
+https://learn.hashicorp.com/tutorials/terraform/count
+In this tutorial, you will use Terraform to provision a VPC, load balancer, and EC2 instances on AWS. 
+Then you will use the count argument to provision multiple 
+EC2 instances per private subnet with a single resource block.
+
+The count argument replicates the given resource or module a specific number of times with an incrementing counter.
+It works best when resources will be identical, or nearly so.
+
+
+
+https://learn.hashicorp.com/tutorials/terraform/cloud-workspace-create
+Once you have created a Terraform Cloud account and created or joined an organization, you can start managing 
+infrastructure with Terraform Cloud. In this tutorial, you will create a CLI-driven workspace.
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS. You must configure
+the provider with the proper credentials before you can use it.
+
+https://learn.hashicorp.com/tutorials/terraform/sentinel-install
+Terraform Cloud uses Sentinel as part of Teams & Governance to enable granular policy control for your infrastructure.
+Sentinel is a language and policy framework, which restricts Terraform actions to defined, allowed behaviors. Policy 
+authors manage Sentinel policies in Terraform Cloud with policy sets, which are groups of policies. 
+Organization owners control the scope of policy sets by applying certain policy sets to the entire organization or to select workspaces.
